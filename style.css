@@ -1,30 +1,59 @@
 body {
-    margin: 0px; <!-- 언제나 전체 body에는 margin 값을 0으로 세팅해준다-->
-    font-size: 18px;
-    color: #FFF;
+  font:14px/1.8 Arial, Helvetica, sans-serif;
 }
-#box {
-    position: relative;
-    height: auto;
-    margin: auto; <!-- 레이아웃을 싸고 있는 box의 margin을 auto로 주면 중앙정렬 효과-->
-    background-color: #F90;
+.frame {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #aaa;
 }
-#top {
-    background-color: #333;
-    height: 100px;
-    position: relative;
+.header {
+  padding:40px 10px;
+  text-align: center;
+  background: #eee;
+  margin-bottom: 20px;
 }
-#left {
-    background-color: #09C;
-    float: left;
-    height: 500px;
-    width: 50%;
-    position: relative;
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  background: #5457de;
+  color: #fff;
+  display: inline-block;
+  padding: 0 8px;
 }
-#right {
-    background-color: #3C0;
-    float: left;
-    height: 500px;
-    width: 50%;
-    position: relative;
+.container {
+  overflow: hidden;
+}
+.nav {
+  float: left;
+  width: 150px;
+  background: #333;
+  color: #fff;
+  margin-right: 50px;
+}
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+.nav-item {
+  margin: 4px 0;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #fff;
+}
+.nav-link:hover {
+  background: #5457de;
+}
+.content {
+  float: left;
+  width: 600px;
+}
+.footer {
+  text-align: center;
+  border-top: 1px solid #aaa;
+  margin: 20px 20px 0;
+  font-size: 12px;
 }
