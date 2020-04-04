@@ -21,20 +21,10 @@ body {
     width: 50%;
     position: relative;
 }
-#main {
+#right {
     background-color: #3C0;
     float: left;
     height: 500px;
     width: 50%;
     position: relative;
 }
-#bottom {
-    background-color: #C0F;
-    height: 70px;
-    position: relative;
-    clear: both; <!-- 상단의 흐름을 한번 끊어주기 위해 clear를 해준다.. -.-;;?? -->
-    float: left; <!-- 새로운 흐름을 지정해줘야 깨지지 않는다-->
-}
-
-
-<!--출처: https://ljs93kr.tistory.com/18 [건프의 소소한 개발이야기]-->
