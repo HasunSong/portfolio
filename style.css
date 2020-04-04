@@ -18,14 +18,14 @@ body {
     background-color: #09C;
     float: left;
     height: 500px;
-    width: 15%;
+    width: 50%;
     position: relative;
 }
 #main {
     background-color: #3C0;
     float: left;
     height: 500px;
-    width: 85%;
+    width: 50%;
     position: relative;
 }
 #bottom {
